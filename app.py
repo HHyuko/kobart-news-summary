@@ -11,4 +11,4 @@ def summarize():
     return f"<h2>요약 결과</h2><p>키워드: {keyword}</p>"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000, debug=True)
